@@ -16,6 +16,10 @@
                         font-size: 50px !important;
                         line-height: 55px !important;
                     }
+
+                .reg-text {
+                    font-size: 22px;
+                }
                 
                 .mobile-text div {
                         font-size: 14px !important;
@@ -24,6 +28,7 @@
                 .button td{
 
                 }
+
 
                 @media (max-width:480px) {
                     .mobile-text div {
@@ -34,10 +39,18 @@
                         font-size: 29px !important;
                         line-height: 33px !important;
                     }
+
+                    .reg-text  div{
+                    font-size: 19px !important;
+                    }
                     .button td{
                         padding-left: 0px !important;
                         padding-right: 0px !important;
+                        
                     }
+
+                    
+                    
                    
                 }
             </mj-style>
@@ -86,7 +99,7 @@
 
         <mj-section background-color="#1e3932" padding="16px 50px 12px 50px" >
             <mj-column>
-                <mj-text align="center">
+                <mj-text css-class="reg-text" align="center">
                     Share a seasonal sip.
                     <br>
                     Enjoy one free handcrafted fall drink when you buy one.
@@ -98,7 +111,7 @@
 
         <mj-section background-color="#1e3932" padding="16px 50px 12px 50px" >
             <mj-column>
-                <mj-text align="center">
+                <mj-text css-class="reg-text" align="center">
                     Thursdays, after 12 p.m.
                     <br>
                     All September
@@ -118,7 +131,7 @@
 
         <mj-section background-color="#1e3932" padding="30px 40px 12px 40px" >
             <mj-column>
-                <mj-text align="center">
+                <mj-text css-class="reg-text" align="center">
                     Redeem your coupon in app or tell your barista.
                     <br>
                     Good for one free handcrafted fall drink of equal or
@@ -132,7 +145,7 @@
 
         <mj-section background-color="#1e3932" padding="30px 40px 30px 40px" >
             <mj-column>
-                <mj-text text-transform="uppercase" align="center">
+                <mj-text css-class="reg-text" text-transform="uppercase" align="center">
                     Handcrafted fall drinks are: Pumpkin Spice Latte, Pumpkin Cream Cold Brew, Iced Pumpkin Cream Chai Tea Latte, Chai Tea Latte, Apple Crisp Oatmilk Shaken Espresso, Caramel Apple Spice, and Apple Crisp Oatmilk Macchiato (any size, includes hot/iced/blended versions).
                 </mj-text>
             </mj-column>
