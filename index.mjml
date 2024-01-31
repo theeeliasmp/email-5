@@ -21,6 +21,10 @@
                         font-size: 14px !important;
                     }
 
+                .button td{
+
+                }
+
                 @media (max-width:480px) {
                     .mobile-text div {
                         font-size: 11px !important;
@@ -30,6 +34,11 @@
                         font-size: 29px !important;
                         line-height: 33px !important;
                     }
+                    .button td{
+                        padding-left: 0px !important;
+                        padding-right: 0px !important;
+                    }
+                   
                 }
             </mj-style>
     </mj-head>
@@ -99,8 +108,8 @@
 
         <!-- Offer Button -->
 
-        <mj-section background-color="#1e3932" padding="30px 50px 12px 50px" >
-            <mj-column>
+        <mj-section background-color="#1e3932" padding="0" >
+            <mj-column css-class="button" padding="30px 30px 12px 30px">
                 <mj-image src="../email-5/images/offerButton.png" alt="Spacedollar Rewards Banner"/>
             </mj-column>
         </mj-section>
