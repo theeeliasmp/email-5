@@ -1,0 +1,250 @@
+<mjml>
+    <mj-head>
+        <mj-font name="SoDo Sans SemiBold" href="https://db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold" />
+        <mj-attributes>
+            <mj-text font-family="SoDo Sans SemiBold, sans-serif" align="center" font-size="22px" line-height="28px" color="#ffffff" padding="0px" />
+            <mj-image padding="0px" />
+            <mj-section padding="0px" />
+            
+            <mj-class name="small-text" font-size="14px"  />
+            <mj-class name="footer-text" font-size="12px" color="#707070" />
+           
+            
+        </mj-attributes>
+        <mj-style>
+                .offer-header div{
+                        font-size: 50px !important;
+                        line-height: 55px !important;
+                    }
+                
+                .mobile-text div {
+                        font-size: 14px !important;
+                    }
+
+                @media (max-width:480px) {
+                    .mobile-text div {
+                        font-size: 11px !important;
+                    }
+
+                    .offer-header div{
+                        font-size: 29px !important;
+                        line-height: 33px !important;
+                    }
+                }
+            </mj-style>
+    </mj-head>
+    <mj-body>
+    <mj-container>
+        <!-- Pre Header -->
+    
+        <mj-section background-color="#1e3932" padding="16px 0px 12px 0px" >
+            <mj-column>
+                <mj-text mj-class="small-text" align="center">
+                    GET THE BEST OF EVERYTHING IN&nbsp;<a href="https://www.starbucks.com/" style="color:#ffffff;text-decoration:underline" target="_blank">THE&nbsp;APP</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Header Banner -->
+
+        <mj-section background-color="#1e3932" padding="0px" >
+            <mj-column>
+                <mj-image src="../email-5/images/headerBanner.png" alt="Spacedollar Rewards Banner"/>
+            </mj-column>
+        </mj-section>
+
+        <!-- Hero Image -->
+
+        <mj-section background-color="#1e3932" padding="0px" >
+            <mj-column>
+                <mj-image src="../email-5/images/animatedHero.gif" alt="Spacedollar Rewards Banner"/>
+            </mj-column>
+        </mj-section>
+
+        <!-- Hero Offer -->
+
+        <mj-section background-color="#1e3932" padding="16px 0px 12px 0px" >
+            <mj-column>
+                <mj-text css-class="offer-header"  align="center">
+                    BUY ONE FALL DRINK,
+                    <br>
+                    GET ONE FREE
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Offer -->
+
+        <mj-section background-color="#1e3932" padding="16px 50px 12px 50px" >
+            <mj-column>
+                <mj-text align="center">
+                    Share a seasonal sip.
+                    <br>
+                    Enjoy one free handcrafted fall drink when you buy one.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Offer Date -->
+
+        <mj-section background-color="#1e3932" padding="16px 50px 12px 50px" >
+            <mj-column>
+                <mj-text align="center">
+                    Thursdays, after 12 p.m.
+                    <br>
+                    All September
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Offer Button -->
+
+        <mj-section background-color="#1e3932" padding="30px 50px 12px 50px" >
+            <mj-column>
+                <mj-image src="../email-5/images/offerButton.png" alt="Spacedollar Rewards Banner"/>
+            </mj-column>
+        </mj-section>
+
+        <!-- Offer Detail 1 -->
+
+        <mj-section background-color="#1e3932" padding="30px 40px 12px 40px" >
+            <mj-column>
+                <mj-text align="center">
+                    Redeem your coupon in app or tell your barista.
+                    <br>
+                    Good for one free handcrafted fall drink of equal or
+                    lesser value, every Thursday after
+                    12 p.m. in September
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Offer Detail 2 -->
+
+        <mj-section background-color="#1e3932" padding="30px 40px 30px 40px" >
+            <mj-column>
+                <mj-text text-transform="uppercase" align="center">
+                    Handcrafted fall drinks are: Pumpkin Spice Latte, Pumpkin Cream Cold Brew, Iced Pumpkin Cream Chai Tea Latte, Chai Tea Latte, Apple Crisp Oatmilk Shaken Espresso, Caramel Apple Spice, and Apple Crisp Oatmilk Macchiato (any size, includes hot/iced/blended versions).
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Nav Banner -->
+
+        <mj-section background-color="#1e3932" padding="30px 0px 0px 0px" >
+            <mj-column>
+                <mj-image src="../email-5/images/footerNavDrinks.png" alt="Spacedollar Rewards Banner"/>
+            </mj-column>
+        </mj-section>
+
+        <!-- Nav Bar -->
+
+        <mj-section background-color="#1e3932" padding="20px 0px 15px 0px" >
+        <mj-group>
+            <mj-column>
+                <mj-image src="../email-5/images/appIcon.png" alt="Spacedollar App" width="42px" />
+                <mj-text css-class="mobile-text" text-transform="uppercase" align="center" >
+                    App
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-image src="../email-5/images/orderIcon.png" alt="Spacedollar Order" width="42px" />
+                <mj-text css-class="mobile-text" text-transform="uppercase" align="center">
+                    Order
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-image src="../email-5/images/offersIcon.png" alt="Spacedollar Offers" width="42px" />
+                <mj-text css-class="mobile-text" text-transform="uppercase" align="center">
+                    Offers
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-image src="../email-5/images/rewardsIcon.png" alt="Spacedollar Rewards" width="42px" />
+                <mj-text css-class="mobile-text" text-transform="uppercase" align="center">
+                    Rewards
+                </mj-text>
+            </mj-column>
+            </mj-group>
+        </mj-section>
+
+        <!-- Social -->
+
+        <mj-section background-color="#ffffff" padding="40px 0px 40px 0px" >
+        <mj-group>
+        <mj-column>
+            
+        </mj-column>
+        <mj-column>
+            
+        </mj-column>
+            <mj-column>
+                <mj-image src="../email-5/images/instaIcon.png" alt="Spacedollar App" width="42px" />
+                
+            </mj-column>
+            <mj-column>
+                <mj-image src="../email-5/images/tiktokIcon.png" alt="Spacedollar Order" width="42px" />
+                
+            </mj-column>
+            <mj-column>
+                <mj-image src="../email-5/images/facebookIcon.png" alt="Spacedollar Offers" width="42px" />
+                
+            </mj-column>
+            <mj-column>
+                <mj-image src="../email-5/images/twitterIcon.png" alt="Spacedollar Rewards" width="42px" />
+                
+            </mj-column>
+            <mj-column>
+            
+        </mj-column>
+        <mj-column>
+            
+        </mj-column>
+        </mj-group>
+        </mj-section>
+
+        <!-- Offer -->
+
+        <mj-section background-color="#ffffff" padding="0px 50px 12px 50px" >
+            <mj-column>
+                <mj-text padding="0px 0px 24px 0px" mj-class="footer-text" align="center">
+                    Valid 9/14, 9/21, AND 9/28/23 after 12:00 p.m. at participating Spacedollar stores in the US. Buy any handcrafted fall drink, and get one of equal or lesser value free ($10 max value). Limit one per member per week. Qualifying drinks include any standard menu size hot/iced/blended versions of Pumpkin Spice Latte, Pumpkin Cream Cold Brew, Iced Pumpkin Cream Chai Tea Latte, Chai Tea Latte, Apple Crisp Oatmilk Shaken Espresso, Caramel Apple Spice, and Apple Crisp Oatmilk Macchiato. Adding Pumpkin Cream Cold Foam and/or other fall flavor modifiers to all other drinks does not qualify.
+                </mj-text>
+                <mj-text padding="0px 0px 24px 0px" mj-class="footer-text" align="center">
+                    Cannot be combined with other offers or discounts. Offer not available through Spacedollar Delivers on Uber Eats or Door Dash.
+                </mj-text>
+                <mj-text padding="0px 0px 24px 0px" mj-class="footer-text" align="center">
+                    HRef: 23-50-CPN-1-0-0-EM-SR-NA-US
+                </mj-text>
+                <mj-text padding="0px 0px 24px 0px" mj-class="footer-text" align="center">
+                    This email was sent to yourname@mailservice.com. <a href="https://www.starbucks.com/" style="color:#707070;text-decoration:underline" target="_blank">Unsubscribe</a>.
+                </mj-text>
+                <mj-text padding="0px 0px 24px 0px" mj-class="footer-text" align="center">
+                    Questions?  <a href="https://www.starbucks.com/" style="color:#707070;text-decoration:underline" target="_blank">Contact us here</a>.
+                </mj-text>
+                <mj-text padding="0px 0px 24px 0px" mj-class="footer-text" align="center">
+                    P.O. Box 945, Fort John, RA 79220.<br>
+                                                                © 2023 Spacedollar Corporation.
+                </mj-text>
+                <mj-text padding="0px 0px 24px 0px" mj-class="footer-text" align="center">
+                    <a href="https://www.starbucks.com/" style="color:#707070;text-decoration:underline" target="_blank">Spacedollar Card Terms of Use</a>
+                </mj-text>
+                <mj-text padding="0px 0px 24px 0px" mj-class="footer-text" align="center">
+                    <a href="https://www.starbucks.com/" style="color:#707070;text-decoration:underline" target="_blank">Spacedollar® Rewards Terms of Use</a>
+                </mj-text>
+                <mj-text padding="0px 0px 24px 0px" mj-class="footer-text" align="center">
+                    <a href="https://www.starbucks.com/" style="color:#707070;text-decoration:underline" target="_blank">Privacy Statement</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Header Banner -->
+
+        <mj-section background-color="#1e3932" padding="0px" >
+            <mj-column>
+                <mj-image src="../email-5/images/footerLogo.png" alt="Spacedollar Rewards Banner"/>
+            </mj-column>
+        </mj-section>
+    </mj-container>
+    </mj-body>
+</mjml>
